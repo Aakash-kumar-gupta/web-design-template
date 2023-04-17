@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@400;700&family=Poppins:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+root{
+    --padding-inline-section: 20px
+}
+
+.flex{
+    display: flex;
+    align-items: center;
+
+
+}
+
+body{
+    font-family: 'poppins',sans-serif;
+}
+
+
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem;
+}
+
+
+p{
+    font-family:'roboto',sans-serif;
+    font-size: 1.25rem;
+    line-height: 1.8rem;
+}
+
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+
+.hl{
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    text-align: center;
+    background-image: url(./pics/layout2.jpg);
+
+}
+
+.container{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section)
+}
+
+.logo{
+    
+}
+ul{
+    list-style-type:none;
+    
+}
+.hover-links:hover{
+color: red;
+}
+.main-nav{
+    
+    
+}
+.nav-links{
+background-color: 
+color: white;
+
+}
+.nav-links ul{
+    justify-content: end;
+    gap: 30px;
+}
+
+
+header{
+padding-inline:var(--padding-inline-section) ;
+}
+.hs{
+    justify-content: center;
+    gap: 50px;
+}
+.header-right img{
+    width: 400px;
+
+}
+.header-left h1{
+    margin-top: 20px;
+}
+
+.company{
+    text-align: center;
+    margin-block: 30px 50px;
+}
+.logo{
+    height: 70px;
+    gap: 40px;
+
+}
+.logos{
+    justify-content: space-between;
+}
+.logo-text p{
+    text-align: center;
+    line-height:100px;
+}
